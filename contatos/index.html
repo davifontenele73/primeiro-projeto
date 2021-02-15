@@ -6,22 +6,26 @@
         <link rel="stylesheet" href="./css/ctsreset.css">
         <title>SR.FEIJÃO</title>
     </head>
-    <body>
+    <body class="body">
         <header>
                 <h1>Contato</h1>
             <div class="logo">
-                <img class="logo01" src="./img/logo2.png">
+                
+                <div class="img-logo">
+                    <img class="logo01" src="./img/logo2.png">
+                </div>
+
                 <nav>
                     <ul>
-                        <li><a href="../feijao.html">home</a></li>
-                        <li><a href="../produtos/index.html">produtos</a></li>
+                        <li class="navegacao"><a href="../feijao.html">home</a></li>
+                        <li class="navegacao"><a href="../produtos/index.html">produtos</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main>
             <form>
-                <label for="nomesobrenome">nome e Sobrenome</label>
+                <label for="nomesobrenome">nome completo</label>
                 <input type="text" id="nomesobrenome" class="input" required>
 
                 <label for="email">Email</label>
@@ -31,23 +35,27 @@
                 <input type="tel" id="telefone" class="input" required placeholder="(xx) xxxxx-xxxx">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea cols="40" rows="10" id="mensagem" class="input" ></textarea>
+                <textarea cols="40" rows="10" id="mensagem" ></textarea>
+                <br>
+                
+                <br><hr><br>
 
-                <div>
+                <div class="contato">
                     <p>Como prefere o nosso contato?</p>
 
-                    <label for="radio-email"><input type="radio" name="contato" 
-                        value="email" id="radio-email">Email</label>
+                    <label for="radio-email" class="contato"><input type="radio" name="contato" 
+                        value="email" class="contato" id="radio-email">Email</label><br>
                     
     
-                    <label for="radio-telefone"><input type="radio" name="contato" 
-                        value="telefone" id="radio-telefone">Telefone</label>
+                    <label for="radio-telefone" class="contato"><input type="radio" name="contato" 
+                        value="telefone" class="contato" id="radio-telefone">Telefone</label><br>
                    
     
-                    <label for="radio-whatsapp"> <input type="radio" name="contato" 
-                        value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label> 
+                    <label for="radio-whatsapp" class="contato"> <input type="radio" name="contato" 
+                        value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
 
                 </div>
+
                 <div>
                     <p>Qual horário prefere receber o pedido?</p>
                     <select >
@@ -56,14 +64,14 @@
                         <option>Noite</option>
                     </select>
                 </div>
-
+                <br><hr><br>
                 <label class="checkbox">
-                    <input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>            
+                    <input id="input" type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>            
             
                 <input type="submit" value="Enviar Formulário" class="enviar">   
 
-
             </form>
+
 
             <table>
                 <thead>
@@ -90,7 +98,7 @@
 
         </main>
         <footer>
-            <img src="./img/logo2.png">
+            <img src="./img/logo2.png" width="100">
             <p class="rodape">
                 &copycopyright SR. FEIJAO - 2021
             </p> 

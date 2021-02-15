@@ -1,13 +1,20 @@
+.body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(233, 233, 233);
+}
+.img-logo {
+    width: 28%;
+}
 /*cabeçalho*/
 header{
-    background: #000000;
+    background: #242424;
 }
 h1{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
-    background: #000000;
+    background: #131313;
     color: #ffffff;
     padding: 15px;
 }
@@ -16,9 +23,19 @@ h1{
     width: 940px;
     margin: 0px auto;
 }
-.logo01:hover{
-    width: 250px;
-    height: 300px;
+
+@keyframes rotate {
+    from{
+        transform: rotate(10deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.img-logo:hover .logo01{
+    animation: rotate 1s;
 }
 nav{
     position: absolute;
@@ -37,10 +54,15 @@ nav a{
     font-weight: bold;
     font-size: 28px;
     text-decoration: none;
+    padding: 5px 12px;
+    background-color: #131313;
+    border-radius: 10px;
+    transition: 0.3s;
 }
 nav a:hover{
-    text-decoration: underline;
-    color: #7f3f01;
+    color: #131313;
+    background-color: #fff;
+    transition: 0.3s;
 }
 /*menu*/
 main{
@@ -63,8 +85,8 @@ form label, form p{
     padding: 10px 25px;
     width: 50%; 
 }
-.checkbox{
-    margin: 20px 0;
+#input{
+    margin-right: 10px;
 }
 .enviar{
     width: 40%;
@@ -80,11 +102,10 @@ form label, form p{
 }
 .enviar:hover{
     background: darkorange;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 table{
     margin: 20px 0 40px;
-
 }
 thead{
     background: #555555;
@@ -94,18 +115,8 @@ thead{
 td, th{
     border: 1px solid #000000;
     padding: 8px 15px;
+    border-radius: 4px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*rodape*/
 footer{
@@ -113,8 +124,39 @@ footer{
     background: #000000;
     text-align: center;
 }
-.rodape{
+.rodape {
     color: #ffffff;
     font-size: 13px;
     margin: 15px 0 0;
+}
+form div label input {
+    margin-right: 10px;
+}
+.input{
+    width: 25%;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(202, 202, 202);
+    color: #000000;
+    padding-left: 10px;
+}
+#mensagem {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(202, 202, 202);
+    color: #000000;
+    padding: 5px;
+    padding-right: 10px;
+    max-height: 80px;
+    max-width: 30%;
+    min-height: 80px;
+    min-width: 30%;
+}
+label, p {
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.contato{
+    display: inline-block;
 }
