@@ -1,0 +1,120 @@
+/*cabeçalho*/
+header{
+    background: #000000;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    background: #000000;
+    color: #ffffff;
+    padding: 15px;
+}
+.logo{
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+}
+.logo01:hover{
+    width: 250px;
+    height: 300px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+ul li{
+    display: inline;
+    width: 30%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #7f3f01;
+}
+/*menu*/
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+   margin: 40px 0;
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+    text-transform: uppercase;
+
+}
+.input-padrao{
+    display: block;
+    margin: 20px 0 20px;
+    padding: 10px 25px;
+    width: 50%; 
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orangered;
+    color: #ffffff;
+    font-weight:bold ;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+table{
+    margin: 20px 0 40px;
+
+}
+thead{
+    background: #555555;
+    color: #ffffff;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*rodape*/
+footer{
+    padding: 40px 0;
+    background: #000000;
+    text-align: center;
+}
+.rodape{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 15px 0 0;
+}

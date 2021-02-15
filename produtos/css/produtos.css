@@ -1,0 +1,99 @@
+/*cabeçalho*/
+header{
+    background: #000000;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.logo{
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+}
+.logo-principal:hover{
+    width: 250px;
+    height: 300px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+ul li{
+    display: inline;
+    width: 30%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #7f3f01;
+}
+/*menu*/
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 30px;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 0px;   
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: #c78c19;  
+}
+.produtos li:active{
+    border-color: #088c19;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos li:hover h2{
+    font-size: 40px;
+}
+.slogan{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+/*rodape*/
+footer{
+    padding: 40px 0;
+    background: #000000;
+    text-align: center;
+}
+.rodape{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 15px 0 0;
+}
